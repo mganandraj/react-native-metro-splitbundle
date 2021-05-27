@@ -1,0 +1,17 @@
+{
+  "name": "platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo %CD% && exit 1",
+    "build": "node ../node_modules/react-native/local-cli/cli.js manifest-bundle --entry-file ./index.js --bundle-output index.bundle.js --output-manifest foundation.manifest.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-native": "^0.64.1",
+    "react-native-cli": "^2.0.1"
+  }
+}

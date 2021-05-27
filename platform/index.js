@@ -1,0 +1,1 @@
+import * as RN from 'react-native'
